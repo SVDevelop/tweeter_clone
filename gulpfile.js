@@ -13,7 +13,7 @@ gulp.watch('app/**/*.html').on('change', browserSync.reload);
 gulp.watch('app/less/*.less', ['less']);
 
 gulp.task('less', function() {
-	return gul.src('.app/less/main.less')
+	return gulp.src('.app/less/main.less')
 	.pipe(plumber({
 		errorHandler: notify.onError(function(err) {
 			return {
@@ -23,9 +23,9 @@ gulp.task('less', function() {
 			}
 		})
 	}))
-})
-.pipe(less())
-.pipe(gulp.dest('./app/css'))
-.pipe(browserSync.stream());
+	.pipe(less())
+	.pipe(gulp.dest('./app/css'))
+	.pipe(browserSync.stream())
+});
 
-gulp.task('defaul', ['server']);		
+gulp.task('default', ['server']);		
