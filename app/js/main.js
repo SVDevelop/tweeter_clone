@@ -78,7 +78,11 @@ $(document).ready(function() {
 	$('#postNewTweet').on('submit', function(event) {
 		event.preventDefault();
 		var $tweetText = $('#tweetText').val();
-		createTweet( getDate(), $tweetText );
-		$('#tweetText').val('');//cбрасываем значение поля ввода
+		if ( !($tweetText == '') ) {
+			createTweet( getDate(), $tweetText );
+			$('#tweetText').val('');//cбрасываем значение поля ввода
+		} else {
+			
+		}
 	});
 });
