@@ -1,0 +1,23 @@
+@mainColor: #087DE1;
+.stats {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	&-item {
+		padding-left: 25px;
+		padding-right: 25px;
+		display: flex;
+		flex-direction: column;
+	}
+	&-title {
+		font-size: 14px;
+		color: #8C8C8C;
+	}
+	&-count {
+		color: @mainColor;
+		font-size: 22px;
+		font-weight: 600;
+	}
+}

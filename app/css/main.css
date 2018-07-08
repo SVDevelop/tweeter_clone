@@ -1,0 +1,95 @@
+body {
+  background: #D5E9ED;
+  font-family: 'Noto Sans', sans-serif;
+  padding-top: 20px;
+}
+.profile-background {
+  height: 120px;
+  background: url(../img/bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+.profile-avatar {
+  background: red;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 100px;
+  margin-top: -50px;
+  border: 4px solid #fff;
+  background: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-avatar img {
+  max-width: 100%;
+  height: auto;
+}
+.profile-title {
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+}
+.profile-description {
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  text-align: center;
+}
+.stats {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.stats-item {
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.stats-title {
+  font-size: 14px;
+  color: #8C8C8C;
+}
+.stats-count {
+  color: #087DE1;
+  font-size: 22px;
+  font-weight: 600;
+}
+.tweet-card {
+  padding: 1.25rem;
+  border-radius: 0px;
+  border-bottom: 0px;
+}
+.tweet-card:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+.tweet-card-rounded-top {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.tweet-data {
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+.tweet-text p {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+.tweet-text a {
+  color: #54A7EF;
+}
+.footer {
+  color: #538994;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer a {
+  color: #25a5bf;
+  font-weight: 800;
+}
+.footer p {
+  line-height: 2;
+  color: #CE2222;
+}

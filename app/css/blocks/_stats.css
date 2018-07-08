@@ -1,0 +1,22 @@
+.stats {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.stats-item {
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.stats-title {
+  font-size: 14px;
+  color: #8C8C8C;
+}
+.stats-count {
+  color: #087DE1;
+  font-size: 22px;
+  font-weight: 600;
+}
