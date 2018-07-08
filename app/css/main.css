@@ -55,6 +55,12 @@ body {
   color: #087DE1;
   font-size: 22px;
   font-weight: 600;
+  text-align: center;
+}
+.card-title-only {
+  padding: 1.25rem;
+  border-bottom: 0px;
+  border-radius: 0.25rem 0.25rem 0 0;
 }
 .tweet-card {
   padding: 1.25rem;

@@ -30,7 +30,7 @@
 						<ul class="stats">
 							<li class="stats-item">
 								<b class="stats-title">Твиты</b>
-								<b class="stats-count">57</b>
+								<b class="stats-count" id="tweetsCounter"></b>
 							</li>
 						</ul>
 					</div>
@@ -41,43 +41,45 @@
 			<div class="col-md-8">
 				<div class="card">
 					<div class="card-body">
-						<form>
+						<form id="postNewTweet">
 						  <div class="form-group">
-						    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Что нового?">
+						    <input type="text" class="form-control" id="tweetText" placeholder="Что нового?">
 						  </div>						
 						  <button type="submit" class="btn btn-primary">Твитнуть</button>
 						</form>
 					</div>
 				</div>
-				<div class="card tweet-card tweet-card-rounded-top">
+				<div class="card card-title-only tweet-card-rounded-top">
 					<div class="h4 mb-0">
 						Твиты пользователя
 					</div>
-
-					<!-- single tweet -->
-					<div class="card tweet-card">
-						<div class="tweet-date">28 апр 2017г.</div>
-						<div class="tweet-text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, tempore!</p>
-							<a href="#">Lorem ipsum dolor.</a>
+					<!-- tweetList -->
+					<div id="tweetLists">
+						<!-- single tweet -->
+						<div class="card tweet-card">
+							<div class="tweet-date">28 апр 2017г.</div>
+							<div class="tweet-text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, tempore!</p>
+								<a href="#">Lorem ipsum dolor.</a>
+							</div>
 						</div>
-					</div>
-					<div class="card tweet-card">
-						<div class="tweet-date">29 апр 2017г.</div>
-						<div class="tweet-text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, tempore!</p>
-							<a href="#">Lorem ipsum dolor.</a>
+						<div class="card tweet-card">
+							<div class="tweet-date">29 апр 2017г.</div>
+							<div class="tweet-text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, tempore!</p>
+								<a href="#">Lorem ipsum dolor.</a>
+							</div>
 						</div>
-					</div>
-					<div class="card tweet-card">
-						<div class="tweet-date">22 апр 2017г.</div>
-						<div class="tweet-text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, tempore!</p>
-							<a href="#">Lorem ipsum dolor.</a>
+						<div class="card tweet-card">
+							<div class="tweet-date">22 апр 2017г.</div>
+							<div class="tweet-text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, tempore!</p>
+								<a href="#">Lorem ipsum dolor.</a>
+							</div>
 						</div>
+						<!-- //single tweet -->
 					</div>
-					<!-- //single tweet -->
-					
+					<!-- end tweetList -->
 				</div>
 				<!-- footer -->
 				<footer class="footer">
@@ -97,6 +99,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>
