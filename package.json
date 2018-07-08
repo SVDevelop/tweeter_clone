@@ -1,5 +1,5 @@
 {
-  "name": "gulp_assembly",
+  "name": "twitter_clone",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VSergeyV/gulp_assembly.git"
+    "url": "git+https://github.com/VSergeyV/tweeter_clone.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": ""
   },
-  "homepage": "https://github.com/VSergeyV/gulp_assembly#readme",
+  "homepage": "https://github.com/VSergeyV/tweeter_clone.git#readme",
   "devDependencies": {
     "browser-sync": "^2.24.5",
     "gulp": "^3.9.1",
